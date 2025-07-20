@@ -42,3 +42,5 @@ function reset() {
     homeCount.textContent = 0
     guestCount.textContent = 0
 }
+
+console.log("Live");
