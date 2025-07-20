@@ -1,4 +1,5 @@
 let count = 0;
+let gCount = 0;
 const homeCount = document.querySelector(".home-count");
 const guestCount = document.querySelector(".guest-count");
 
@@ -23,22 +24,23 @@ function addThree() {
 
 
 function gOne() {
-    count += 1
+    gCount += 1
     guestCount.textContent = count
 }
 
 function gTwo() {
-    count += 2
+    gCount += 2
     guestCount.textContent = count
 }
 
 function gThree() {
-    count += 3
+    gCount += 3
     guestCount.textContent = count
 }
 
 function reset() {
     count = 0
+    gCount = 0
     homeCount.textContent = 0
     guestCount.textContent = 0
 }
